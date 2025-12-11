@@ -1,8 +1,11 @@
 🏨 Hotel Pricing Trends – Exploratory Data Analysis (Booking.com)
 
+
 📌 Project Overview
 
 This project analyzes hotel pricing trends using data scraped from Booking.com. It focuses on how location, star ratings, review scores, room types, and booking features influence hotel prices. The analysis helps identify pricing patterns useful for travelers, hotels, and travel platforms.
+
+
 
 🔧 Tools & Technologies
 
@@ -13,6 +16,8 @@ Requests, BeautifulSoup (Web Scraping)
 Pandas (Data Cleaning & Manipulation)
 
 Matplotlib, Seaborn (Data Visualization)
+
+
 
 📂 Dataset Summary
 
@@ -25,6 +30,8 @@ Key Fields: Hotel Name, Location, Price, Star Rating, Review Score, Room Type, B
 Wide variation in pricing with several high-value outliers
 
 Minimal missing values after cleaning
+
+
 
 🧹 Data Cleaning & Preparation
 
@@ -39,6 +46,8 @@ Filled missing star ratings and review scores
 Extracted clean location fields
 
 Categorized review scores and created price bins
+
+
 
 📊 Exploratory Data Analysis
 Univariate Insights
@@ -71,6 +80,8 @@ Price ↗ with Star Ratings (moderate correlation)
 
 Price vs Review Score = weak correlation
 
+
+
 🔎 Key Findings
 
 Star Ratings and Location are the strongest drivers of hotel pricing
@@ -80,6 +91,8 @@ Review Scores act as a baseline expectation rather than a price driver
 Some locations show premium pricing while others remain budget-friendly
 
 Many affordable hotels still maintain high review scores
+
+
 
 🚧 Challenges Faced
 
